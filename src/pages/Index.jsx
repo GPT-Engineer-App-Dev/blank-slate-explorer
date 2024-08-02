@@ -1,12 +1,11 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Button } from "@/components/ui/button"
 
 const Index = () => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
-      </div>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-background">
+      <h1 className="text-4xl font-bold mb-4 text-foreground">Welcome to Your Blank App</h1>
+      <p className="text-lg mb-8 text-muted-foreground">Start building your amazing project here!</p>
+      <Button>Get Started</Button>
     </div>
   );
 };
